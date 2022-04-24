@@ -1,13 +1,12 @@
-@import './_header.scss';
+@import './base/common';
+@import './base/container';
+@import './components/backdrop';
+@import './components/form';
+@import './utils/variables';
+@import './components/logo';
+@import './layout/header';
+@import './components/main-title';
+@import './utils/visually-hidden';
+@import './components/description';
+@import './layout/about';
 
-body {
-    background-color: tomato;
-}
-
-h1 {
-    color: aqua;
-}
-
- p {
-     color: aqua;
- }

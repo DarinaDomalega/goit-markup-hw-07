@@ -1,0 +1,30 @@
+.logo {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-part {
+    color: #2196f3;
+}
+
+.logo-portfolio {
+    border: 1px solid #ececec;
+}
+
+.logo:hover {
+    color: var(--accent-color);
+    font-size: 26px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 93px;
+    line-height: 31px;
+}
